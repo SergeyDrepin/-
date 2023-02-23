@@ -1,10 +1,9 @@
 ﻿// Проверка на полиндром
 
-int[] array = { 1, 4, 2, 1, 2 };
-int index = 0;
-int size = array.Length;
+string number = 14212;
 
-if (array[index] == array(size - 1) && array[index + 1] == array(size - 2))
+
+if (number[0] == number(4) && number[1] == number(3))
 {
     Console.WriteLine("Yes");
 }
